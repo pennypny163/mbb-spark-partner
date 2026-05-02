@@ -8,7 +8,7 @@
 
 ## 它不是什么
 
-- ❌ 不是"帮你写报告"的工具（那个用 [mbb-consultant-distiller](https://github.com/pennypny163/mbb-consultant-distiller)）
+- ❌ 不是"帮你写报告"的工具（那个用 [mbb-draft-distiller](https://github.com/pennypny163/mbb-consultant-distiller)）
 - ❌ 不是给一堆通用建议让你自己消化的 ChatBot
 - ❌ 不是问你 10 个问题才开始思考的问卷系统
 
@@ -206,7 +206,7 @@ cp -r mbb-spark-partner ./.workbuddy/skills/
 
 | 先用 | 再用 | 效果 |
 |------|------|------|
-| **Spark Partner** 想清楚方向 | → **Consultant Distiller** 写成报告 | 从决策到文档一条龙 |
+| **Spark Partner** 想清楚方向 | → **Draft Distiller** 写成报告 | 从决策到文档一条龙 |
 | **Spark Partner** 做市场判断 | → **McKinsey Consultant** 生成PPT | 从判断到交付物 |
 | 别人的报告/数据 | → **Spark Partner** 一起讨论 | 把信息变成决策 |
 
