@@ -1,0 +1,10 @@
+{
+  "slug": "mbb-spark-partner",
+  "name": "MBB Spark Partner",
+  "version": "2.2.0",
+  "installedAt": 1777698018133,
+  "upgradedAt": 1746164971000,
+  "source": "skillhub",
+  "localOverride": true,
+  "upgradeNote": "v2.2: 新增Phase 4 Recap — 方法论回顾、用户决策风格/风险偏好/盲区洞察、个性化ending"
+}
