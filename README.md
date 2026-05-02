@@ -162,13 +162,32 @@ Phase 4 → Recap
 
 ## 安装
 
+本 Skill 是一个纯 Markdown 指令集，不依赖任何特定平台。只要你的 AI 工具支持加载自定义 prompt/skill 文件，就能用。
+
+### 方式一：Claude Code / Cline / Cursor 等支持 skills 的工具
+
 ```bash
-# 放到 WorkBuddy skills 目录
+# 克隆到你的 skills 目录（路径根据你的工具调整）
+git clone https://github.com/pennypny163/mbb-spark-partner.git ~/.your-tool/skills/mbb-spark-partner
+```
+
+### 方式二：直接喂给任何 AI
+
+1. 复制 `SKILL.md` 的全部内容
+2. 作为 system prompt 或对话开头粘贴给 ChatGPT / Claude / 任何 LLM
+3. 开始对话即可
+
+### 方式三：WorkBuddy 用户
+
+```bash
+# 用户级别（所有项目可用）
 cp -r mbb-spark-partner ~/.workbuddy/skills/
 
-# 或项目级别
+# 或项目级别（团队共享）
 cp -r mbb-spark-partner ./.workbuddy/skills/
 ```
+
+**核心文件就一个**：`SKILL.md`（461行）。其余都是辅助。
 
 ## 使用
 
